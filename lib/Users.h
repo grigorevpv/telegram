@@ -14,11 +14,10 @@ private:
     map<string, string> users_name_id;
     unsigned int number_of_users;
 public:
-    Users(char *file_name);
+    Users();
     void show_users_data();
-    string start_read_cards();
     unsigned int get_number_of_users();
-
+    void find_user_id(const string &);
 };
 
 

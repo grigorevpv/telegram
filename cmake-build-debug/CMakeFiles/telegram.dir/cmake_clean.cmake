@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/telegram.dir/main.cpp.o"
-  "CMakeFiles/telegram.dir/Users.cpp.o"
+  "CMakeFiles/telegram.dir/lib/Users.cpp.o"
+  "CMakeFiles/telegram.dir/lib/Cards.cpp.o"
   "telegram.pdb"
   "telegram"
 )

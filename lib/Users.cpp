@@ -2,7 +2,10 @@
 // Created by user on 12/5/16.
 //
 
-
+#include <signal.h>
+#include <stdio.h>
+#include <exception>
+#include <tgbot/tgbot.h>
 #include <fstream>
 #include <string>
 #include <vector>
@@ -12,8 +15,12 @@
 
 using namespace std;
 //using namespace boost;
+using namespace TgBot;
 
-Users::Users(char *file_name) {
+void send_user_info(const string &id, bool friendly);
+
+Users::Users() {
+    string file_name("/home/user/ClionProjects/telegram/lib/data.txt");
     ifstream file;
     file.exceptions(ifstream::failbit | ifstream::badbit);
     file.open(file_name);
@@ -36,6 +43,43 @@ Users::Users(char *file_name) {
 
 void Users::show_users_data() {
     for(auto user : users_name_id){
-        cout << "name = " << user.first << "   id = " << user.second << endl;
+        cout << "id = " << user.first << "   name = " << user.second << endl;
     }
+}
+
+unsigned int Users::get_number_of_users() {
+    return number_of_users;
+}
+
+void Users::find_user_id(const string &id) {
+    map<string, string>::iterator it;
+    bool friendly = false;
+    it = users_name_id.find(id);
+    if (it != users_name_id.end()){
+         friendly = true;
+    }
+    send_user_info(id, friendly);
+}
+
+void send_user_info(const string &id, bool friendly){
+    Bot bot("188810782:AAE1XIyxDO2t7cIfI-aIgP2TTzwNw9LNpwM");
+
+        bot.getApi().sendMessage(200484588, "The user with id: " + id + " is comming");
+        string path;
+
+        if (friendly){
+            path = "/home/user/ClionProjects/telegram/image/sun.jpeg";
+        } else {
+            path = "/home/user/ClionProjects/telegram/image/prison.jpeg";
+        }
+
+        InputFile::Ptr photo (new InputFile);
+        ifstream fin(path, ios::in | ios::binary);
+        std::ostringstream oss;
+        oss << fin.rdbuf();
+        photo->data = oss.str();
+        cout << photo->data.length() << endl;
+        photo->mimeType = "image/jpeg";
+        photo->fileName = "photo.jpeg";
+        bot.getApi().sendPhoto(200484588, photo);
 }

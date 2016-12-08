@@ -84,10 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/user/ClionProjects/telegram/Users.cpp">
+		<Unit filename="/home/user/ClionProjects/telegram/lib/Cards.cpp">
 			<Option target="telegram"/>
 		</Unit>
-		<Unit filename="/home/user/ClionProjects/telegram/Users.h">
+		<Unit filename="/home/user/ClionProjects/telegram/lib/Cards.h">
+			<Option target="telegram"/>
+		</Unit>
+		<Unit filename="/home/user/ClionProjects/telegram/lib/Users.cpp">
+			<Option target="telegram"/>
+		</Unit>
+		<Unit filename="/home/user/ClionProjects/telegram/lib/Users.h">
 			<Option target="telegram"/>
 		</Unit>
 		<Unit filename="/home/user/ClionProjects/telegram/main.cpp">

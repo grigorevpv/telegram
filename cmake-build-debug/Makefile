@@ -123,32 +123,59 @@ telegram/fast:
 	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/build
 .PHONY : telegram/fast
 
-Users.o: Users.cpp.o
+lib/Cards.o: lib/Cards.cpp.o
 
-.PHONY : Users.o
+.PHONY : lib/Cards.o
 
 # target to build an object file
-Users.cpp.o:
-	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/Users.cpp.o
-.PHONY : Users.cpp.o
+lib/Cards.cpp.o:
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/Cards.cpp.o
+.PHONY : lib/Cards.cpp.o
 
-Users.i: Users.cpp.i
+lib/Cards.i: lib/Cards.cpp.i
 
-.PHONY : Users.i
+.PHONY : lib/Cards.i
 
 # target to preprocess a source file
-Users.cpp.i:
-	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/Users.cpp.i
-.PHONY : Users.cpp.i
+lib/Cards.cpp.i:
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/Cards.cpp.i
+.PHONY : lib/Cards.cpp.i
 
-Users.s: Users.cpp.s
+lib/Cards.s: lib/Cards.cpp.s
 
-.PHONY : Users.s
+.PHONY : lib/Cards.s
 
 # target to generate assembly for a file
-Users.cpp.s:
-	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/Users.cpp.s
-.PHONY : Users.cpp.s
+lib/Cards.cpp.s:
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/Cards.cpp.s
+.PHONY : lib/Cards.cpp.s
+
+lib/Users.o: lib/Users.cpp.o
+
+.PHONY : lib/Users.o
+
+# target to build an object file
+lib/Users.cpp.o:
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/Users.cpp.o
+.PHONY : lib/Users.cpp.o
+
+lib/Users.i: lib/Users.cpp.i
+
+.PHONY : lib/Users.i
+
+# target to preprocess a source file
+lib/Users.cpp.i:
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/Users.cpp.i
+.PHONY : lib/Users.cpp.i
+
+lib/Users.s: lib/Users.cpp.s
+
+.PHONY : lib/Users.s
+
+# target to generate assembly for a file
+lib/Users.cpp.s:
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/Users.cpp.s
+.PHONY : lib/Users.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +213,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... telegram"
-	@echo "... Users.o"
-	@echo "... Users.i"
-	@echo "... Users.s"
+	@echo "... lib/Cards.o"
+	@echo "... lib/Cards.i"
+	@echo "... lib/Cards.s"
+	@echo "... lib/Users.o"
+	@echo "... lib/Users.i"
+	@echo "... lib/Users.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

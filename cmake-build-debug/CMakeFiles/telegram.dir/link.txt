@@ -1,1 +1,1 @@
-/usr/bin/c++    -std=c++11 -g   CMakeFiles/telegram.dir/main.cpp.o CMakeFiles/telegram.dir/Users.cpp.o  -o telegram -rdynamic /usr/local/lib/libTgBot.a -lpthread -lssl -lcrypto -lboost_system -lboost_iostreams -lboost_unit_test_framework -lboost_regex 
+/usr/bin/c++    -std=c++11 -g   CMakeFiles/telegram.dir/main.cpp.o CMakeFiles/telegram.dir/lib/Users.cpp.o CMakeFiles/telegram.dir/lib/Cards.cpp.o  -o telegram -rdynamic /usr/local/lib/libTgBot.a -lpthread -lssl -lcrypto -lboost_system -lboost_iostreams -lboost_unit_test_framework -lboost_regex 

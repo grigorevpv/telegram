@@ -3,7 +3,8 @@
 //
 
 #include "Cards.h"
-#include "reader.h"
+#include "reader.c"
+#include "Users.h"
 
 void Cards::set_card_id(const string &id) {
     card_id = id;
@@ -22,12 +23,13 @@ string Cards::get_card_type() {
 }
 
 void Cards::read_cards() {
-    string *id(new string) = nullptr;
-    string *type(new string) = nullptr;
-    string old_id = *id;
-    string old_type = *type;
-    reader(id, type);
-
+    string id;
+    Users users;
+    int i = 20;
+    while (i--) {
+        card_id = reader();
+        users.find_user_id(card_id);
+    }
 }
 
 

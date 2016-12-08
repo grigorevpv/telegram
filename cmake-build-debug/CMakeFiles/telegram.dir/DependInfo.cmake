@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/user/ClionProjects/telegram/Users.cpp" "/home/user/ClionProjects/telegram/cmake-build-debug/CMakeFiles/telegram.dir/Users.cpp.o"
+  "/home/user/ClionProjects/telegram/lib/Cards.cpp" "/home/user/ClionProjects/telegram/cmake-build-debug/CMakeFiles/telegram.dir/lib/Cards.cpp.o"
+  "/home/user/ClionProjects/telegram/lib/Users.cpp" "/home/user/ClionProjects/telegram/cmake-build-debug/CMakeFiles/telegram.dir/lib/Users.cpp.o"
   "/home/user/ClionProjects/telegram/main.cpp" "/home/user/ClionProjects/telegram/cmake-build-debug/CMakeFiles/telegram.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
