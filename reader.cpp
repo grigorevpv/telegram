@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <exception>
 #include <tgbot/tgbot.h>
-#include "Users.h"
+#include "lib/Users.h"
 
 using namespace std;
 using namespace TgBot;

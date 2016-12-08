@@ -16,6 +16,7 @@ private:
 public:
     Users(char *file_name);
     void show_users_data();
+    string start_read_cards();
     unsigned int get_number_of_users();
 
 };
