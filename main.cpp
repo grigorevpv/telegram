@@ -1,5 +1,3 @@
-#include <signal.h>
-#include <stdio.h>
 #include <exception>
 #include <tgbot/tgbot.h>
 #include "lib/Cards.h"

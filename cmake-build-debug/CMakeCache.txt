@@ -232,6 +232,9 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
+//The directory containing a CMake configuration file for bcm2835.
+bcm2835_DIR:PATH=bcm2835_DIR-NOTFOUND
+
 //Value Computed by CMake
 telegram_BINARY_DIR:STATIC=/home/user/ClionProjects/telegram/cmake-build-debug
 

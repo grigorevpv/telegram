@@ -129,11 +129,86 @@ CMakeFiles/telegram.dir/lib/Cards.cpp.o.provides: CMakeFiles/telegram.dir/lib/Ca
 CMakeFiles/telegram.dir/lib/Cards.cpp.o.provides.build: CMakeFiles/telegram.dir/lib/Cards.cpp.o
 
 
+CMakeFiles/telegram.dir/lib/config.c.o: CMakeFiles/telegram.dir/flags.make
+CMakeFiles/telegram.dir/lib/config.c.o: ../lib/config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ClionProjects/telegram/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/telegram.dir/lib/config.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/telegram.dir/lib/config.c.o   -c /home/user/ClionProjects/telegram/lib/config.c
+
+CMakeFiles/telegram.dir/lib/config.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/telegram.dir/lib/config.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/ClionProjects/telegram/lib/config.c > CMakeFiles/telegram.dir/lib/config.c.i
+
+CMakeFiles/telegram.dir/lib/config.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/telegram.dir/lib/config.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/ClionProjects/telegram/lib/config.c -o CMakeFiles/telegram.dir/lib/config.c.s
+
+CMakeFiles/telegram.dir/lib/config.c.o.requires:
+
+.PHONY : CMakeFiles/telegram.dir/lib/config.c.o.requires
+
+CMakeFiles/telegram.dir/lib/config.c.o.provides: CMakeFiles/telegram.dir/lib/config.c.o.requires
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/config.c.o.provides.build
+.PHONY : CMakeFiles/telegram.dir/lib/config.c.o.provides
+
+CMakeFiles/telegram.dir/lib/config.c.o.provides.build: CMakeFiles/telegram.dir/lib/config.c.o
+
+
+CMakeFiles/telegram.dir/lib/rc522.c.o: CMakeFiles/telegram.dir/flags.make
+CMakeFiles/telegram.dir/lib/rc522.c.o: ../lib/rc522.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ClionProjects/telegram/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/telegram.dir/lib/rc522.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/telegram.dir/lib/rc522.c.o   -c /home/user/ClionProjects/telegram/lib/rc522.c
+
+CMakeFiles/telegram.dir/lib/rc522.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/telegram.dir/lib/rc522.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/ClionProjects/telegram/lib/rc522.c > CMakeFiles/telegram.dir/lib/rc522.c.i
+
+CMakeFiles/telegram.dir/lib/rc522.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/telegram.dir/lib/rc522.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/ClionProjects/telegram/lib/rc522.c -o CMakeFiles/telegram.dir/lib/rc522.c.s
+
+CMakeFiles/telegram.dir/lib/rc522.c.o.requires:
+
+.PHONY : CMakeFiles/telegram.dir/lib/rc522.c.o.requires
+
+CMakeFiles/telegram.dir/lib/rc522.c.o.provides: CMakeFiles/telegram.dir/lib/rc522.c.o.requires
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/rc522.c.o.provides.build
+.PHONY : CMakeFiles/telegram.dir/lib/rc522.c.o.provides
+
+CMakeFiles/telegram.dir/lib/rc522.c.o.provides.build: CMakeFiles/telegram.dir/lib/rc522.c.o
+
+
+CMakeFiles/telegram.dir/lib/rfid.c.o: CMakeFiles/telegram.dir/flags.make
+CMakeFiles/telegram.dir/lib/rfid.c.o: ../lib/rfid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ClionProjects/telegram/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/telegram.dir/lib/rfid.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/telegram.dir/lib/rfid.c.o   -c /home/user/ClionProjects/telegram/lib/rfid.c
+
+CMakeFiles/telegram.dir/lib/rfid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/telegram.dir/lib/rfid.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/user/ClionProjects/telegram/lib/rfid.c > CMakeFiles/telegram.dir/lib/rfid.c.i
+
+CMakeFiles/telegram.dir/lib/rfid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/telegram.dir/lib/rfid.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/user/ClionProjects/telegram/lib/rfid.c -o CMakeFiles/telegram.dir/lib/rfid.c.s
+
+CMakeFiles/telegram.dir/lib/rfid.c.o.requires:
+
+.PHONY : CMakeFiles/telegram.dir/lib/rfid.c.o.requires
+
+CMakeFiles/telegram.dir/lib/rfid.c.o.provides: CMakeFiles/telegram.dir/lib/rfid.c.o.requires
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/rfid.c.o.provides.build
+.PHONY : CMakeFiles/telegram.dir/lib/rfid.c.o.provides
+
+CMakeFiles/telegram.dir/lib/rfid.c.o.provides.build: CMakeFiles/telegram.dir/lib/rfid.c.o
+
+
 # Object files for target telegram
 telegram_OBJECTS = \
 "CMakeFiles/telegram.dir/main.cpp.o" \
 "CMakeFiles/telegram.dir/lib/Users.cpp.o" \
-"CMakeFiles/telegram.dir/lib/Cards.cpp.o"
+"CMakeFiles/telegram.dir/lib/Cards.cpp.o" \
+"CMakeFiles/telegram.dir/lib/config.c.o" \
+"CMakeFiles/telegram.dir/lib/rc522.c.o" \
+"CMakeFiles/telegram.dir/lib/rfid.c.o"
 
 # External object files for target telegram
 telegram_EXTERNAL_OBJECTS =
@@ -141,8 +216,12 @@ telegram_EXTERNAL_OBJECTS =
 telegram: CMakeFiles/telegram.dir/main.cpp.o
 telegram: CMakeFiles/telegram.dir/lib/Users.cpp.o
 telegram: CMakeFiles/telegram.dir/lib/Cards.cpp.o
+telegram: CMakeFiles/telegram.dir/lib/config.c.o
+telegram: CMakeFiles/telegram.dir/lib/rc522.c.o
+telegram: CMakeFiles/telegram.dir/lib/rfid.c.o
 telegram: CMakeFiles/telegram.dir/build.make
 telegram: /usr/local/lib/libTgBot.a
+telegram: /usr/local/lib/libbcm2835.a
 telegram: /usr/lib/x86_64-linux-gnu/libssl.so
 telegram: /usr/lib/x86_64-linux-gnu/libcrypto.so
 telegram: /usr/lib/x86_64-linux-gnu/libboost_system.so
@@ -150,7 +229,7 @@ telegram: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
 telegram: /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so
 telegram: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 telegram: CMakeFiles/telegram.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/ClionProjects/telegram/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable telegram"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/ClionProjects/telegram/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable telegram"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/telegram.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -161,6 +240,9 @@ CMakeFiles/telegram.dir/build: telegram
 CMakeFiles/telegram.dir/requires: CMakeFiles/telegram.dir/main.cpp.o.requires
 CMakeFiles/telegram.dir/requires: CMakeFiles/telegram.dir/lib/Users.cpp.o.requires
 CMakeFiles/telegram.dir/requires: CMakeFiles/telegram.dir/lib/Cards.cpp.o.requires
+CMakeFiles/telegram.dir/requires: CMakeFiles/telegram.dir/lib/config.c.o.requires
+CMakeFiles/telegram.dir/requires: CMakeFiles/telegram.dir/lib/rc522.c.o.requires
+CMakeFiles/telegram.dir/requires: CMakeFiles/telegram.dir/lib/rfid.c.o.requires
 
 .PHONY : CMakeFiles/telegram.dir/requires
 

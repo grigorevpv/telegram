@@ -177,6 +177,87 @@ lib/Users.cpp.s:
 	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/Users.cpp.s
 .PHONY : lib/Users.cpp.s
 
+lib/config.o: lib/config.c.o
+
+.PHONY : lib/config.o
+
+# target to build an object file
+lib/config.c.o:
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/config.c.o
+.PHONY : lib/config.c.o
+
+lib/config.i: lib/config.c.i
+
+.PHONY : lib/config.i
+
+# target to preprocess a source file
+lib/config.c.i:
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/config.c.i
+.PHONY : lib/config.c.i
+
+lib/config.s: lib/config.c.s
+
+.PHONY : lib/config.s
+
+# target to generate assembly for a file
+lib/config.c.s:
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/config.c.s
+.PHONY : lib/config.c.s
+
+lib/rc522.o: lib/rc522.c.o
+
+.PHONY : lib/rc522.o
+
+# target to build an object file
+lib/rc522.c.o:
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/rc522.c.o
+.PHONY : lib/rc522.c.o
+
+lib/rc522.i: lib/rc522.c.i
+
+.PHONY : lib/rc522.i
+
+# target to preprocess a source file
+lib/rc522.c.i:
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/rc522.c.i
+.PHONY : lib/rc522.c.i
+
+lib/rc522.s: lib/rc522.c.s
+
+.PHONY : lib/rc522.s
+
+# target to generate assembly for a file
+lib/rc522.c.s:
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/rc522.c.s
+.PHONY : lib/rc522.c.s
+
+lib/rfid.o: lib/rfid.c.o
+
+.PHONY : lib/rfid.o
+
+# target to build an object file
+lib/rfid.c.o:
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/rfid.c.o
+.PHONY : lib/rfid.c.o
+
+lib/rfid.i: lib/rfid.c.i
+
+.PHONY : lib/rfid.i
+
+# target to preprocess a source file
+lib/rfid.c.i:
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/rfid.c.i
+.PHONY : lib/rfid.c.i
+
+lib/rfid.s: lib/rfid.c.s
+
+.PHONY : lib/rfid.s
+
+# target to generate assembly for a file
+lib/rfid.c.s:
+	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/rfid.c.s
+.PHONY : lib/rfid.c.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +300,15 @@ help:
 	@echo "... lib/Users.o"
 	@echo "... lib/Users.i"
 	@echo "... lib/Users.s"
+	@echo "... lib/config.o"
+	@echo "... lib/config.i"
+	@echo "... lib/config.s"
+	@echo "... lib/rc522.o"
+	@echo "... lib/rc522.i"
+	@echo "... lib/rc522.s"
+	@echo "... lib/rfid.o"
+	@echo "... lib/rfid.i"
+	@echo "... lib/rfid.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
