@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/user/ClionProjects/telegram/./lib -I/usr/local/include 
+CXX_INCLUDES = -I/home/user/ClionProjects/telegram/lib -I/home/user/ClionProjects/telegram/./lib -I/usr/local/include 
 

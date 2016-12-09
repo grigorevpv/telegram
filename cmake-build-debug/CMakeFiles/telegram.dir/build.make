@@ -98,6 +98,14 @@ telegram: /usr/lib/x86_64-linux-gnu/libboost_system.so
 telegram: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
 telegram: /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so
 telegram: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+telegram: /usr/local/lib/libTgBot.a
+telegram: /usr/local/lib/libbcm2835.a
+telegram: /usr/lib/x86_64-linux-gnu/libssl.so
+telegram: /usr/lib/x86_64-linux-gnu/libcrypto.so
+telegram: /usr/lib/x86_64-linux-gnu/libboost_system.so
+telegram: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+telegram: /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so
+telegram: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 telegram: CMakeFiles/telegram.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/ClionProjects/telegram/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable telegram"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/telegram.dir/link.txt --verbose=$(VERBOSE)
