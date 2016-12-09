@@ -4,23 +4,7 @@
 
 #include "Cards.h"
 #include "Users.h"
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
-#include <unistd.h>
-#include <syslog.h>
-#include <sys/wait.h>
-#include <signal.h>
-#include "rfid.h"
-#include "bcm2835.h"
-#include "config.h"
-#include "rc522.h"
-
-
-char *reader();
-uint8_t HW_init(uint32_t spi_speed, uint8_t gpio);
-void usage(char *);
-uint8_t debug = 0;
+#include "reader.h"
 
 void Cards::set_card_id(const string &id) {
     card_id = id;

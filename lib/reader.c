@@ -15,7 +15,7 @@ void usage(char *);
 //uint8_t debug=0;
 
 
-char *reader() {
+char* reader() {
 
 	uid_t uid;
 	uint8_t SN[10];

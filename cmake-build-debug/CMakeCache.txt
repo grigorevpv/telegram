@@ -235,6 +235,9 @@ ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 //The directory containing a CMake configuration file for bcm2835.
 bcm2835_DIR:PATH=bcm2835_DIR-NOTFOUND
 
+//Dependencies for target
+my_lib_LIB_DEPENDS:STATIC=
+
 //Value Computed by CMake
 telegram_BINARY_DIR:STATIC=/home/user/ClionProjects/telegram/cmake-build-debug
 

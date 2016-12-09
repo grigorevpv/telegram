@@ -123,13 +123,26 @@ telegram/fast:
 	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/build
 .PHONY : telegram/fast
 
+#=============================================================================
+# Target rules for targets named my_lib
+
+# Build rule for target.
+my_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_lib
+.PHONY : my_lib
+
+# fast build rule for target.
+my_lib/fast:
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/build
+.PHONY : my_lib/fast
+
 lib/Cards.o: lib/Cards.cpp.o
 
 .PHONY : lib/Cards.o
 
 # target to build an object file
 lib/Cards.cpp.o:
-	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/Cards.cpp.o
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/Cards.cpp.o
 .PHONY : lib/Cards.cpp.o
 
 lib/Cards.i: lib/Cards.cpp.i
@@ -138,7 +151,7 @@ lib/Cards.i: lib/Cards.cpp.i
 
 # target to preprocess a source file
 lib/Cards.cpp.i:
-	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/Cards.cpp.i
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/Cards.cpp.i
 .PHONY : lib/Cards.cpp.i
 
 lib/Cards.s: lib/Cards.cpp.s
@@ -147,7 +160,7 @@ lib/Cards.s: lib/Cards.cpp.s
 
 # target to generate assembly for a file
 lib/Cards.cpp.s:
-	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/Cards.cpp.s
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/Cards.cpp.s
 .PHONY : lib/Cards.cpp.s
 
 lib/Users.o: lib/Users.cpp.o
@@ -156,7 +169,7 @@ lib/Users.o: lib/Users.cpp.o
 
 # target to build an object file
 lib/Users.cpp.o:
-	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/Users.cpp.o
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/Users.cpp.o
 .PHONY : lib/Users.cpp.o
 
 lib/Users.i: lib/Users.cpp.i
@@ -165,7 +178,7 @@ lib/Users.i: lib/Users.cpp.i
 
 # target to preprocess a source file
 lib/Users.cpp.i:
-	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/Users.cpp.i
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/Users.cpp.i
 .PHONY : lib/Users.cpp.i
 
 lib/Users.s: lib/Users.cpp.s
@@ -174,8 +187,116 @@ lib/Users.s: lib/Users.cpp.s
 
 # target to generate assembly for a file
 lib/Users.cpp.s:
-	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/Users.cpp.s
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/Users.cpp.s
 .PHONY : lib/Users.cpp.s
+
+lib/config.o: lib/config.c.o
+
+.PHONY : lib/config.o
+
+# target to build an object file
+lib/config.c.o:
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/config.c.o
+.PHONY : lib/config.c.o
+
+lib/config.i: lib/config.c.i
+
+.PHONY : lib/config.i
+
+# target to preprocess a source file
+lib/config.c.i:
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/config.c.i
+.PHONY : lib/config.c.i
+
+lib/config.s: lib/config.c.s
+
+.PHONY : lib/config.s
+
+# target to generate assembly for a file
+lib/config.c.s:
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/config.c.s
+.PHONY : lib/config.c.s
+
+lib/rc522.o: lib/rc522.c.o
+
+.PHONY : lib/rc522.o
+
+# target to build an object file
+lib/rc522.c.o:
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/rc522.c.o
+.PHONY : lib/rc522.c.o
+
+lib/rc522.i: lib/rc522.c.i
+
+.PHONY : lib/rc522.i
+
+# target to preprocess a source file
+lib/rc522.c.i:
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/rc522.c.i
+.PHONY : lib/rc522.c.i
+
+lib/rc522.s: lib/rc522.c.s
+
+.PHONY : lib/rc522.s
+
+# target to generate assembly for a file
+lib/rc522.c.s:
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/rc522.c.s
+.PHONY : lib/rc522.c.s
+
+lib/reader.o: lib/reader.c.o
+
+.PHONY : lib/reader.o
+
+# target to build an object file
+lib/reader.c.o:
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/reader.c.o
+.PHONY : lib/reader.c.o
+
+lib/reader.i: lib/reader.c.i
+
+.PHONY : lib/reader.i
+
+# target to preprocess a source file
+lib/reader.c.i:
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/reader.c.i
+.PHONY : lib/reader.c.i
+
+lib/reader.s: lib/reader.c.s
+
+.PHONY : lib/reader.s
+
+# target to generate assembly for a file
+lib/reader.c.s:
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/reader.c.s
+.PHONY : lib/reader.c.s
+
+lib/rfid.o: lib/rfid.c.o
+
+.PHONY : lib/rfid.o
+
+# target to build an object file
+lib/rfid.c.o:
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/rfid.c.o
+.PHONY : lib/rfid.c.o
+
+lib/rfid.i: lib/rfid.c.i
+
+.PHONY : lib/rfid.i
+
+# target to preprocess a source file
+lib/rfid.c.i:
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/rfid.c.i
+.PHONY : lib/rfid.c.i
+
+lib/rfid.s: lib/rfid.c.s
+
+.PHONY : lib/rfid.s
+
+# target to generate assembly for a file
+lib/rfid.c.s:
+	$(MAKE) -f CMakeFiles/my_lib.dir/build.make CMakeFiles/my_lib.dir/lib/rfid.c.s
+.PHONY : lib/rfid.c.s
 
 main.o: main.cpp.o
 
@@ -213,12 +334,25 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... telegram"
+	@echo "... my_lib"
 	@echo "... lib/Cards.o"
 	@echo "... lib/Cards.i"
 	@echo "... lib/Cards.s"
 	@echo "... lib/Users.o"
 	@echo "... lib/Users.i"
 	@echo "... lib/Users.s"
+	@echo "... lib/config.o"
+	@echo "... lib/config.i"
+	@echo "... lib/config.s"
+	@echo "... lib/rc522.o"
+	@echo "... lib/rc522.i"
+	@echo "... lib/rc522.s"
+	@echo "... lib/reader.o"
+	@echo "... lib/reader.i"
+	@echo "... lib/reader.s"
+	@echo "... lib/rfid.o"
+	@echo "... lib/rfid.i"
+	@echo "... lib/rfid.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -81,66 +81,14 @@ CMakeFiles/telegram.dir/main.cpp.o.provides: CMakeFiles/telegram.dir/main.cpp.o.
 CMakeFiles/telegram.dir/main.cpp.o.provides.build: CMakeFiles/telegram.dir/main.cpp.o
 
 
-CMakeFiles/telegram.dir/lib/Users.cpp.o: CMakeFiles/telegram.dir/flags.make
-CMakeFiles/telegram.dir/lib/Users.cpp.o: ../lib/Users.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ClionProjects/telegram/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/telegram.dir/lib/Users.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/telegram.dir/lib/Users.cpp.o -c /home/user/ClionProjects/telegram/lib/Users.cpp
-
-CMakeFiles/telegram.dir/lib/Users.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/telegram.dir/lib/Users.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ClionProjects/telegram/lib/Users.cpp > CMakeFiles/telegram.dir/lib/Users.cpp.i
-
-CMakeFiles/telegram.dir/lib/Users.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/telegram.dir/lib/Users.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ClionProjects/telegram/lib/Users.cpp -o CMakeFiles/telegram.dir/lib/Users.cpp.s
-
-CMakeFiles/telegram.dir/lib/Users.cpp.o.requires:
-
-.PHONY : CMakeFiles/telegram.dir/lib/Users.cpp.o.requires
-
-CMakeFiles/telegram.dir/lib/Users.cpp.o.provides: CMakeFiles/telegram.dir/lib/Users.cpp.o.requires
-	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/Users.cpp.o.provides.build
-.PHONY : CMakeFiles/telegram.dir/lib/Users.cpp.o.provides
-
-CMakeFiles/telegram.dir/lib/Users.cpp.o.provides.build: CMakeFiles/telegram.dir/lib/Users.cpp.o
-
-
-CMakeFiles/telegram.dir/lib/Cards.cpp.o: CMakeFiles/telegram.dir/flags.make
-CMakeFiles/telegram.dir/lib/Cards.cpp.o: ../lib/Cards.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ClionProjects/telegram/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/telegram.dir/lib/Cards.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/telegram.dir/lib/Cards.cpp.o -c /home/user/ClionProjects/telegram/lib/Cards.cpp
-
-CMakeFiles/telegram.dir/lib/Cards.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/telegram.dir/lib/Cards.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ClionProjects/telegram/lib/Cards.cpp > CMakeFiles/telegram.dir/lib/Cards.cpp.i
-
-CMakeFiles/telegram.dir/lib/Cards.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/telegram.dir/lib/Cards.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ClionProjects/telegram/lib/Cards.cpp -o CMakeFiles/telegram.dir/lib/Cards.cpp.s
-
-CMakeFiles/telegram.dir/lib/Cards.cpp.o.requires:
-
-.PHONY : CMakeFiles/telegram.dir/lib/Cards.cpp.o.requires
-
-CMakeFiles/telegram.dir/lib/Cards.cpp.o.provides: CMakeFiles/telegram.dir/lib/Cards.cpp.o.requires
-	$(MAKE) -f CMakeFiles/telegram.dir/build.make CMakeFiles/telegram.dir/lib/Cards.cpp.o.provides.build
-.PHONY : CMakeFiles/telegram.dir/lib/Cards.cpp.o.provides
-
-CMakeFiles/telegram.dir/lib/Cards.cpp.o.provides.build: CMakeFiles/telegram.dir/lib/Cards.cpp.o
-
-
 # Object files for target telegram
 telegram_OBJECTS = \
-"CMakeFiles/telegram.dir/main.cpp.o" \
-"CMakeFiles/telegram.dir/lib/Users.cpp.o" \
-"CMakeFiles/telegram.dir/lib/Cards.cpp.o"
+"CMakeFiles/telegram.dir/main.cpp.o"
 
 # External object files for target telegram
 telegram_EXTERNAL_OBJECTS =
 
 telegram: CMakeFiles/telegram.dir/main.cpp.o
-telegram: CMakeFiles/telegram.dir/lib/Users.cpp.o
-telegram: CMakeFiles/telegram.dir/lib/Cards.cpp.o
 telegram: CMakeFiles/telegram.dir/build.make
 telegram: /usr/local/lib/libTgBot.a
 telegram: /usr/local/lib/libbcm2835.a
@@ -151,7 +99,7 @@ telegram: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
 telegram: /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so
 telegram: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 telegram: CMakeFiles/telegram.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/ClionProjects/telegram/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable telegram"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/ClionProjects/telegram/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable telegram"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/telegram.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -160,8 +108,6 @@ CMakeFiles/telegram.dir/build: telegram
 .PHONY : CMakeFiles/telegram.dir/build
 
 CMakeFiles/telegram.dir/requires: CMakeFiles/telegram.dir/main.cpp.o.requires
-CMakeFiles/telegram.dir/requires: CMakeFiles/telegram.dir/lib/Users.cpp.o.requires
-CMakeFiles/telegram.dir/requires: CMakeFiles/telegram.dir/lib/Cards.cpp.o.requires
 
 .PHONY : CMakeFiles/telegram.dir/requires
 

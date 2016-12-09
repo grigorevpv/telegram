@@ -2,14 +2,16 @@ cmake_minimum_required(VERSION 2.8.4)
 project(telegram)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 set(Boost_USE_MULTITHREADED ON)
-#set(SOURCE_FILES main.cpp lib/Users.cpp lib/Users.h lib/Cards.cpp lib/Cards.h)
-set(SOURCE_FILES main.cpp lib/Users.cpp lib/Users.h lib/Cards.cpp lib/Cards.h lib/bcm2835.h lib/reader.h lib/config.h lib/rc522.h lib/rfid.h lib/data.txt lib/RC522.conf)
+
+#set(SOURCE_FILES main.cpp lib/Users.cpp lib/Users.h lib/Cards.cpp lib/config.h lib/Cards.h lib/bcm2835.h lib/reader.h lib/reader.c lib/config.h lib/rc522.h lib/rfid.h lib/data.txt lib/RC522.conf)
+set(SOURCE_FILES main.cpp)
+set(HEADER lib/Users.h lib/config.h lib/Cards.h lib/bcm2835.h lib/reader.h lib/config.h lib/rc522.h lib/rfid.h)
+set(SOURCE_LIB lib/Users.cpp lib/Cards.cpp lib/config.c lib/reader.c lib/config.c lib/rc522.c lib/rfid.c)
+add_library(my_lib ${SOURCE_LIB} ${HEADER})
+#add_executable(telegram ${SOURCE_FILES})
 add_executable(telegram ${SOURCE_FILES})
 find_package(Threads REQUIRED)
 find_package(OpenSSL REQUIRED)
 find_package(Boost COMPONENTS system iostreams unit_test_framework REQUIRED)
-include_directories(/usr/local/include ${OPENSSL_INCLUDE_DIR} ${Boost_INCLUDE_DIR})
-target_link_libraries(telegram /usr/local/lib/libTgBot.a /usr/local/lib/libbcm2835.a ${CMAKE_THREAD_LIBS_INIT} ${OPENSSL_LIBRARIES} ${Boost_LIBRARIES})
-
-
-
+include_directories(./lib /usr/local/include ${OPENSSL_INCLUDE_DIR} ${Boost_INCLUDE_DIR})
+target_link_libraries(telegram /usr/local/lib/libTgBot.a /usr/local/lib/libbcm2835.a ${CMAKE_THREAD_LIBS_INIT} ${OPENSSL_LIBRARIES} ${Boost_LIBRARIES} ${CMAKE_DL_LIBS} ${HEADER})
