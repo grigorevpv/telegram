@@ -102,22 +102,16 @@
 		<Unit filename="/home/user/ClionProjects/telegram/lib/bcm2835.h">
 			<Option target="telegram"/>
 		</Unit>
-		<Unit filename="/home/user/ClionProjects/telegram/lib/config.c">
-			<Option target="telegram"/>
-		</Unit>
 		<Unit filename="/home/user/ClionProjects/telegram/lib/config.h">
 			<Option target="telegram"/>
 		</Unit>
 		<Unit filename="/home/user/ClionProjects/telegram/lib/data.txt">
 			<Option target="telegram"/>
 		</Unit>
-		<Unit filename="/home/user/ClionProjects/telegram/lib/rc522.c">
-			<Option target="telegram"/>
-		</Unit>
 		<Unit filename="/home/user/ClionProjects/telegram/lib/rc522.h">
 			<Option target="telegram"/>
 		</Unit>
-		<Unit filename="/home/user/ClionProjects/telegram/lib/rfid.c">
+		<Unit filename="/home/user/ClionProjects/telegram/lib/reader.h">
 			<Option target="telegram"/>
 		</Unit>
 		<Unit filename="/home/user/ClionProjects/telegram/lib/rfid.h">
